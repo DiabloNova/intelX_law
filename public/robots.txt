@@ -1,0 +1,11 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://intelx.ir/sitemap.xml
+
+# Disallow admin pages
+User-agent: *
+Disallow: /adminpage-4338/
+Disallow: /dashboard/
